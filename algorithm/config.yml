@@ -1,0 +1,6 @@
+id: python_sdk_demo_driver
+name: PythonSDK示例驱动
+algorithm-grpc:
+  host: 127.0.0.1
+  port: 9236
+log-level: DEBUG

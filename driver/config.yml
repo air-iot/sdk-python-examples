@@ -1,0 +1,16 @@
+id: python_sdk_demo_driver
+name: PythonSDK示例驱动
+driver-grpc:
+  host: 127.0.0.1
+  port: 9224
+mq:
+  type: mqtt
+  mqtt:
+    host: 127.0.0.1
+    port: 1883
+    username: admin
+    password: public
+  kafka:
+    brokers:
+      - 127.0.0.1:9092
+log-level: DEBUG
