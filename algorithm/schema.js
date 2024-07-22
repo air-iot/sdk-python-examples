@@ -71,5 +71,38 @@
                 }
             }
         }
+    },
+    {
+        "title": "函数4-数组参数",
+        "function": "arrayArguments",
+        "input": {
+            "type": "object",
+            "properties": {
+                "arr1": {
+                    "type": "array",
+                    "title": "数组1",
+                    "items": {
+                        "type": "number"
+                    }
+                },
+                "arr2": {
+                    "type": "array",
+                    "title": "数组2",
+                    "items": {
+                        "type": "number"
+                    }
+                }
+            },
+            "required": ["arr1", "arr2"]
+        },
+        "output": {
+            "type": "object",
+            "properties": {
+                "result": {
+                    "title": "结果",
+                    "type": "number"
+                }
+            }
+        }
     }
 ]

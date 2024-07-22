@@ -42,3 +42,18 @@ class MyAlgorithmApp(AlgorithmApp):
     @algorithm_function(name="now")
     async def now(self, project_id: str, params: dict[str, any]) -> [dict[str, any] | object]:
         return {"sysdate": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+
+    @algorithm_function(name="arrayArguments")
+    async def now(self, project_id: str, params: dict[str, any]) -> [dict[str, any] | object]:
+        arr1 = params["arr1"]
+        arr2 = params["arr2"]
+
+        count1 = 0
+        count2 = 0
+        for v in arr1:
+            count1 += v
+
+        for v in arr2:
+            count2 += v
+
+        return {"result": f"{count1}{count2}"}
