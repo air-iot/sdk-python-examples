@@ -18,4 +18,4 @@ AIRIOT 物联网平台二次开发 Python SDK
 pip install airiot_python_sdk-{VERSION}-py3-none-any.wh
 ```
 
-> 如果安装过程中缺少依赖包, 根据提示安装相关依赖即.
+> 如果安装过程中缺少依赖包, 根据提示安装相关依赖即可.
